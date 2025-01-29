@@ -10,7 +10,7 @@ const port = 5000;
 app.use(cors());
 
 // Route
-app.get("/", getInfo);
+app.get("/userDetails", getInfo);
 
 // Start server
 app.listen(port, () => {
